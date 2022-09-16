@@ -217,9 +217,16 @@ ul {
     flex-wrap: wrap;
 }
 
+ul li{
+    padding-left: 0;
+    margin-left:0;
+}
+
 .items, .cost {
     display: flex;
     flex-direction: column;
+    margin-left: 0;
+    padding-left:0;
 }
 
 /* contact*/

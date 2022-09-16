@@ -1,0 +1,283 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(189, 213, 255);
+}
+
+h1 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px rgb(101, 128, 179);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 28, 65);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(101, 128, 179);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 5px;
+}
+
+.navbar .subMenu {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 20px;
+}
+
+.navbar p {
+    font-size: 20px;
+    margin: 2px 20px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(8, 28, 65);
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 1px 1px rgb(101, 128, 179);
+}
+
+.indexHorses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.indexHorses img {
+    max-width: 100%;
+}
+
+/* Horse presentation */
+.hastarna {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hastarna div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px;
+    border: solid 5px rgb(101, 128, 179);
+}
+
+.hastarna img {
+    max-width: 200px;
+    padding: 4px;
+}
+
+/* Facilities */
+.anlaggning {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+
+.anlaggning div {
+    display: flex;
+    margin: 5px;
+}
+
+.anlaggning p {
+    min-width: 200px;
+    max-width: 700px;
+}
+
+.anlaggning img {
+    display: flex;
+    max-width: 70%;
+    margin-right: 5px;
+}
+
+.ridhus,
+.hage {
+    margin: 5px;
+}
+
+/* homepage */
+
+.news {
+    display: flex;
+}
+
+.news div {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+/* board */
+
+.styrelse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.styrelse div {
+    display: flex;
+}
+
+.styrelse .about {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 5px;
+}
+
+.styrelse img {
+    max-width: 150px;
+    padding: 5px;
+}
+
+/* membership */
+.memberPage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.membership {
+    max-width: 700px;
+}
+
+.memberForm {
+    padding-right: 10px;
+}
+
+.membership img {
+    width: 100%;
+    max-width: 700px;
+}
+
+/* staff */
+
+.personalen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personalen div {
+    display: flex;
+}
+
+.personalen .about {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    padding: 5px;
+}
+
+.personalen img {
+    max-width: 150px;
+    padding: 5px;
+}
+
+/* riding classes */
+.ridhososs {
+    display: flex;
+    justify-content: center;
+}
+
+.ridhososs div {
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.ridhososs div img {
+    width: 100%;
+}
+
+.prices {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding:0;
+    flex-wrap: wrap;
+}
+
+.items, .cost {
+    display: flex;
+    flex-direction: column;
+}
+
+/* contact*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact div{
+    margin:0 10px;
+}
+
+.map{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width:600px) {
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .anlaggning div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hastarna img {
+        max-width: 100px;
+    }
+
+    .memberPage {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin: auto;
+        width: 100%;
+    }
+
+    .ridhososs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .navbar{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .navbar p{
+        padding:7px;
+    }
+}
